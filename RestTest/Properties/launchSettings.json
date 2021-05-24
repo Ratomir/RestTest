@@ -19,7 +19,10 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "AWS_SECRET_ACCESS_KEY": "GwZZID5vzydh6y9dXrHjAfSF2XjDfGbDvMQ/zm5V",
+        "AWS_ACCESS_KEY_ID": "AKIASVT6MKBZLHHQKSD6",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "pathroute": "schedule"
       },
       "dotnetRunMessages": "true",
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
