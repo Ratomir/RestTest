@@ -1,6 +1,8 @@
+using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,12 +26,18 @@ namespace RestTest
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<MyDbContenxt>(opt => opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDefaultAWSOptions(Configuration.GetAWSOptions());
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            string route = Configuration.GetValue<string>("pathroute");
+            app.UsePathBase(new PathString($"/{route}"));
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
