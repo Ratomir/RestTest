@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestTest", "RestTest\RestTest.csproj", "{7B95CF11-129B-46E5-A027-793EEF3BD75F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5836F2E1-7984-4EC3-8931-EB5BBA1CFEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{5836F2E1-7984-4EC3-8931-EB5BBA1CFEF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{398DA60B-2579-40C0-8F8F-9D33686CE757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{F87B881C-2B46-41C1-AD2F-563C27263B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{F87B881C-2B46-41C1-AD2F-563C27263B59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cicd", "cicd", "{40D02D9B-6208-46AD-9E6F-F80CFACDA529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless1", "AWSServerless1\AWSServerless1.csproj", "{694EB359-803E-46C5-BB1E-988886961ED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{F87B881C-2B46-41C1-AD2F-563C27263B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F87B881C-2B46-41C1-AD2F-563C27263B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F87B881C-2B46-41C1-AD2F-563C27263B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694EB359-803E-46C5-BB1E-988886961ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694EB359-803E-46C5-BB1E-988886961ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694EB359-803E-46C5-BB1E-988886961ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694EB359-803E-46C5-BB1E-988886961ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
