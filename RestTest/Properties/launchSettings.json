@@ -19,8 +19,8 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "AWS_SECRET_ACCESS_KEY": "GwZZID5vzydh6y9dXrHjAfSF2XjDfGbDvMQ/zm5V",
-        "AWS_ACCESS_KEY_ID": "AKIASVT6MKBZLHHQKSD6",
+        "AWS_SECRET_ACCESS_KEY": "XXX",
+        "AWS_ACCESS_KEY_ID": "XXX",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "pathroute": "schedule"
       },
